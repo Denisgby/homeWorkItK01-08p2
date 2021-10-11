@@ -1,24 +1,66 @@
 <div class="mainDivClass" id="mailDivId">
     <div class="emailDivClass" id="emailDivId">
         <p class="">Email:</p> <br/>
-        <input type="text">
+        <input class="emailInputClass" id="emailInputId" type="text">
     </div>
     <div class="passDivClass" id="passDivId">
-        <p>Password:</p> <br/>
-        <input type="text"></div>
+        <p class="">Password:</p> <br/>
+        <input class="passInputClass" id="passInputId" type="text"></div>
     <div class="logDivClass" id="logDivId">
-        <label for="sdfs">asdf</label>
-        <button class="buttonLogIn">Log In</button>
+        <input class="inputCheckBoxClass" id="inputCheckBoxId" type="checkbox"><label>remember me</label>
+        <button class="buttonLogInClass" id="buttonLogInId">Log In</button>
     </div>
 </div>
 
 <style>
+ 
+
     .mainDivClass {
         width: 300px;
-        margin:0 auto;
+        margin:0 auto   ;
+        padding: 10px;
         background-color: rgb(148, 207, 235);
+        border: 5px red solid;
     }
-    .buttonLogIn {
+
+    .emailDivClass {
+        border: 5px red solid;
+        padding: 10px;
+        margin: auto;
+    }
+
+    .passDivClass {
+        border: 5px red solid;
+        padding: 10px;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .logDivClass {
+        border: 5px red solid;
+        padding: 10px;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .inputCheckBoxClass {
+        float: left;
+    }
+
+    .buttonLogInClass{
         float: right;
     }
+
+    p{
+        margin: 0px;
+        padding: 0px;
+    }
 </style>
+
+<script>
+    // не забудьте установить для кнопки в html-е значение атрибута id='login'
+var loginButton = document.getElementById('login');
+loginButton.onclick = function() {
+
+   // вот здесь ваш код.
+
+};
+</script>
