@@ -1,11 +1,11 @@
 <div class="mainDivClass" id="mailDivId">
     <div class="emailDivClass" id="emailDivId">
-        <p class="">Email:</p> <br/>
-        <input class="emailInputClass" id="emailInputId" type="text">
+        <p class="" id="">Email:</p> <br/>
+        <input class="emailInputClass" id="emailInputId" type="text" value="deniskagby">
     </div>
     <div class="passDivClass" id="passDivId">
-        <p class="">Password:</p> <br/>
-        <input class="passInputClass" id="passInputId" type="text"></div>
+        <p class="" id="">Password:</p> <br/>
+        <input class="passInputClass" id="passInputId" type="text"value="123456789"></div>
     <div class="logDivClass" id="logDivId">
         <input class="inputCheckBoxClass" id="inputCheckBoxId" type="checkbox"><label>remember me</label>
         <button class="buttonLogInClass" id="buttonLogInId">Log In</button>
@@ -57,10 +57,19 @@
 
 <script>
     // не забудьте установить для кнопки в html-е значение атрибута id='login'
-var loginButton = document.getElementById('login');
+var loginButton = document.getElementById('buttonLogInId');
 loginButton.onclick = function() {
 
    // вот здесь ваш код.
-
+    var emailE1=document.getElementById('emailInputId');
+    var passE1=document.getElementById('passInputId');
+    var checkE1=document.getElementById('inputCheckBoxId');
+    var buttonE1=document.getElementById('buttonLogInId');
+    
+    //console.log(emailE1.value)
+    //console.log(passE1.value)
+    //console.log(checkE1.value)
+    //console.log(buttonE1.value)
+   window.alert('email: ' + emailE1.value +'; '+'Password: '+ passE1.value +';')
 };
 </script>
