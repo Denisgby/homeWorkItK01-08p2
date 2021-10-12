@@ -12,64 +12,6 @@
     </div>
 </div>
 
-<style>
- 
+<link rel="stylesheet" href="index.css">
 
-    .mainDivClass {
-        width: 300px;
-        margin:0 auto   ;
-        padding: 10px;
-        background-color: rgb(148, 207, 235);
-        border: 5px red solid;
-    }
-
-    .emailDivClass {
-        border: 5px red solid;
-        padding: 10px;
-        margin: auto;
-    }
-
-    .passDivClass {
-        border: 5px red solid;
-        padding: 10px;
-        margin: 10px 0px 0px 0px;
-    }
-
-    .logDivClass {
-        border: 5px red solid;
-        padding: 10px;
-        margin: 10px 0px 0px 0px;
-    }
-
-    .inputCheckBoxClass {
-        float: left;
-    }
-
-    .buttonLogInClass{
-        float: right;
-    }
-
-    p{
-        margin: 0px;
-        padding: 0px;
-    }
-</style>
-
-<script>
-    // не забудьте установить для кнопки в html-е значение атрибута id='login'
-var loginButton = document.getElementById('buttonLogInId');
-loginButton.onclick = function() {
-
-   // вот здесь ваш код.
-    var emailE1=document.getElementById('emailInputId');
-    var passE1=document.getElementById('passInputId');
-    var checkE1=document.getElementById('inputCheckBoxId');
-    var buttonE1=document.getElementById('buttonLogInId');
-    
-    //console.log(emailE1.value)
-    //console.log(passE1.value)
-    //console.log(checkE1.value)
-    //console.log(buttonE1.value)
-   window.alert('email: ' + emailE1.value +'; '+'Password: '+ passE1.value +';')
-};
-</script>
+<script src="index.js"></script>

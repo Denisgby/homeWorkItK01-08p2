@@ -1,0 +1,40 @@
+
+
+    .mainDivClass {
+        width: 300px;
+        margin:0 auto   ;
+        padding: 10px;
+        background-color: rgb(148, 207, 235);
+        border: 5px red solid;
+    }
+
+    .emailDivClass {
+        border: 5px red solid;
+        padding: 10px;
+        margin: auto;
+    }
+
+    .passDivClass {
+        border: 5px red solid;
+        padding: 10px;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .logDivClass {
+        border: 5px red solid;
+        padding: 10px;
+        margin: 10px 0px 0px 0px;
+    }
+
+    .inputCheckBoxClass {
+        float: left;
+    }
+
+    .buttonLogInClass{
+        float: right;
+    }
+
+    p{
+        margin: 0px;
+        padding: 0px;
+    }
